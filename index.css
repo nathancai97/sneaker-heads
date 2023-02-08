@@ -25,3 +25,63 @@ Images:
 - "https://i.pinimg.com/236x/d6/3f/56/d63f563519df0ece564b82c72e9e306c.jpg"
     - (You may use any image you would like for the background!)
 */
+
+* {
+    font-family: Copperplate;
+}
+
+body {
+    background-image: url('https://i.pinimg.com/236x/d6/3f/56/d63f563519df0ece564b82c72e9e306c.jpg');
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    background-image: linear-gradient(180deg, #FFFFFF 0%, #6284FF 50%, #FF0000 100%);
+    color:rgb(109, 0, 251);
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    padding: 1%;
+    text-shadow: 0 2px yellow;
+    font-size: 4em;
+    border-radius: 20px;
+}
+
+#row1 {
+    width: 50%;
+    margin: 0 0 0 19%;
+}
+#row1-section1 img{
+    box-shadow: 5px 5px 5px blue;
+    width: 85%;
+}
+#jordans-1-desc {
+    border: 2px solid rgb(243, 183, 106);
+    background-color: #89CFF0;
+    color: white;
+    font-size: 1.5em;
+    padding: 2%;
+    width: 82%;
+    border-radius: 10px;
+}
+#row2 {
+    width: 50%;
+    margin: 0 0 0 38%;
+}
+
+#row2-section1 img{
+    box-shadow: 5px 5px 5px red;
+    width: 85%;
+
+}
+#jordans-2-desc {
+    border: 2px solid green;
+    background-color: red;
+    color: white;
+    font-size: 1.5em;
+    padding: 2%;
+    border-radius: 10px;
+    width: 82%;
+}
